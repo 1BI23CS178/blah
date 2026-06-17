@@ -8,7 +8,7 @@ jdk 'jdk'
 stages {
 stage('Checkout') {
 steps {
-git branch: ‘main’, url: 'https://github.com/1BI23CS178/blah.git'
+git branch: 'main', url: 'https://github.com/1BI23CS178/blah.git'
 }
 }
 stage('Build') {
